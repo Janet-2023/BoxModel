@@ -1,0 +1,51 @@
+
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+
+}
+.caja {
+  display: inline-block;
+  background-color: crimson;
+  width: 700px;
+  height: 100px;
+  color: black;
+}
+
+#relativo{
+    height: 150px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    background: gold;
+    margin: 50px;
+
+}
+#absoluto{  
+    height: 150px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    background-color: green;
+    margin: 40px ;
+    
+}
+#fixed{
+    height: 150px;
+    position: fixed;
+    top: 550px;
+    left: 40px;
+    background: purple;
+    margin: 60px;
+
+}
+.caja2{
+    width: 600px;
+    height: 200px;
+    position: sticky;
+    top: 800px;
+    left: 500px;
+    background: greenyellow;
+    margin: 400px;
+}
